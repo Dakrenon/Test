@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dq28yqssf4rno"]
+
+[ext_resource type="Texture2D" uid="uid://niyjsukagirc" path="res://Dev/ScaleRef01.png" id="1_jg2c2"]
+[ext_resource type="Texture2D" uid="uid://j6soqg8eejka" path="res://Dev/test_tileset.png" id="2_38eym"]
+[ext_resource type="Texture2D" uid="uid://cn8oa46yt1uqr" path="res://icon.svg" id="3_d6k38"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ScaleRef01" type="Sprite2D" parent="."]
+position = Vector2(45, 111)
+texture = ExtResource("1_jg2c2")
+
+[node name="TestTileset" type="Sprite2D" parent="."]
+position = Vector2(15, 92)
+texture = ExtResource("2_38eym")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(183, 227)
+texture = ExtResource("3_d6k38")
